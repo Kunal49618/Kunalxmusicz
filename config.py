@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","StaarrrKinnggg")
+OWNER_USERNAME = getenv("OWNER_USERNAME","OxygenVk18")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "DaisyyMusixBot")
 # Don't Add style font 
@@ -29,7 +29,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002017835000))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6758921590))
+OWNER_ID = int(getenv("OWNER_ID", 6575520257))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,15 +39,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Payal8800/DAIZYMUSIC",
+    "https://github.com/Kunal49618/KUNALXMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Kafiirana")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Kafiirana")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KNOW_ABOUT_KUNAL")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+oCWmvaUVBC1kMzM9")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -85,10 +85,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/3ca0e53b5604943c1dcc9.jpg"
+    "START_IMG_URL", "https://graph.org/file/da449af35e30402909e11.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/9e7ae788deec80e7e6a3f.jpg"
+    "PING_IMG_URL", "https://graph.org/file/72a23476f56d1b35701c8.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
